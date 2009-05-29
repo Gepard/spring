@@ -372,17 +372,27 @@ GLuint CFontTextureRenderer::CreateTexture()
 	GLuint tex;
 	glGenTextures(1, &tex);
 	glBindTexture(GL_TEXTURE_2D, tex);
+<<<<<<< HEAD:rts/Rendering/glFont.cpp
     
+=======
+>>>>>>> remotes/gepard/master:rts/Rendering/glFont.cpp
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 
 	// note: geforce2 doesn't support GL_CLAMP_TO_BORDER
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP);
+<<<<<<< HEAD:rts/Rendering/glFont.cpp
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP);
     
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_ALPHA, texWidth, texHeight, 0, GL_ALPHA, GL_UNSIGNED_BYTE, atlas);
     
 	delete[] atlas;
+=======
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_ALPHA, texWidth, texHeight, 0, GL_ALPHA, GL_UNSIGNED_BYTE, atlas);
+	delete[] atlas;
+
+>>>>>>> remotes/gepard/master:rts/Rendering/glFont.cpp
 	return tex;
 }
 

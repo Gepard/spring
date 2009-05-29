@@ -1,9 +1,18 @@
+<<<<<<< HEAD:AI/Skirmish/NTai/AI/NTai/Engine/COrderRouter.cpp
 /*
 NTai
 Tom J Nowell
 tarendai@darkstars.co.uk
 www.darkstars.co.uk
 LGPL 2 licence 2004+
+=======
+/*
+NTai
+Tom J Nowell
+tarendai@darkstars.co.uk
+www.darkstars.co.uk
+LGPL 2 licence 2004+
+>>>>>>> remotes/gepard/master:AI/Skirmish/NTai/AI/NTai/Engine/COrderRouter.cpp
 */
 
 #include "../Core/include.h"

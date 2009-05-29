@@ -24,7 +24,11 @@ namespace  ntai {
 
 	private:
 
+<<<<<<< HEAD:AI/Skirmish/NTai/AI/NTai/Helpers/Efficiency.h
 		std::map<std::string,std::string> unit_names; //unitname -> human name
+=======
+		std::map<std::string,std::string> unit_names; //unitname -> human name
+>>>>>>> remotes/gepard/master:AI/Skirmish/NTai/AI/NTai/Helpers/Efficiency.h
 		std::map<std::string,std::string> unit_descriptions; //unitname -> human name
 	};
 }

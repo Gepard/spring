@@ -1,2 +1,7 @@
+<<<<<<< HEAD:tools/ArchiveMover/icon.rc
 1 ICON "ArchiveMover.ico"
 CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "ArchiveMover.exe.manifest"
+=======
+1 ICON "ArchiveMover.ico"
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "ArchiveMover.exe.manifest"
+>>>>>>> remotes/gepard/master:tools/ArchiveMover/icon.rc

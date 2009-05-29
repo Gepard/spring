@@ -1,6 +1,10 @@
 #include "CGridCell.h"
 
+<<<<<<< HEAD:AI/Skirmish/NTai/AI/NTai/Helpers/grid/CGridCell.cpp
 namespace ntai {
+=======
+namespace ntai {
+>>>>>>> remotes/gepard/master:AI/Skirmish/NTai/AI/NTai/Helpers/grid/CGridCell.cpp
 
 	CGridCell::CGridCell(){
 		
